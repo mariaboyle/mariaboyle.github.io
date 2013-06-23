@@ -1,0 +1,149 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+body {
+	font-family: Arial;
+	}
+#top {
+	background-color: black;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	}
+#top a:link, #top a:visited {
+	font-family: Arial;
+	color: #CCC;
+	text-decoration: none;
+	font-style: bold;
+	font-size: 15px;
+	
+	}
+.nav:active, .nav:hover {
+	font-family: Arial;
+	color: #FFF;
+	text-decoration: none;
+	}
+
+li {
+	display: inline;
+	
+	}
+footer {
+	float: right;
+	margin-bottom: 0px;
+	margin-right: 3px;
+	clear: both;
+	vertical-align: baseline;
+	position: relative;
+	z-index: 10;
+	margin-top: 19em; 
+	}
+.footer:link, .footer:visited {
+	text-decoration: none;
+	font-size: 13px;
+	font-family: Arial;
+	color: #C8C8C8;
+	}
+.footer:hover {
+	text-decoration: underline;
+	font-size: 13px;
+	font-family: Arial;
+	color: #C8C8C8;
+	}
+#bottom {
+	poition: relative;
+	bottom: -300px; 
+	word-spacing: .25em;
+	padding-right: 1em;
+	margin-bottom: 0em;
+	padding bottom: 0em;
+	}
+#signin {
+	padding: 6px 13px 6px 13px;
+	border: 1px solid #FFFFFF;
+	color: #FFFFFF;
+	background-color: #C33;
+	float: right;
+	text-decoration: none;
+	margin-right: 20px;
+	margin-top: 15px;
+	font-size: 15px;
+	font-variant: small-caps;
+	font-family: Arial;
+	font-weight: bold;
+	}
+#top {
+	word-spacing: 1em;
+	padding-left: .75em;
+	}
+img {
+	width: 275px;
+	height: 95px;
+	margin: 0 auto;
+	padding-top: 200px;
+	padding-bottom: 20px;
+	display: block;
+	}
+.buttons {
+	display: inline;
+	padding: 3px;
+	height: 20px;
+	width:40px;
+	}
+#searchbar {
+	height: 40px;
+	width: 400px;
+	}
+#searcharea {
+	width: 236px;
+	margin: 0 auto;
+	}
